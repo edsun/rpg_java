@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="64" height="48" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Tiles" tilewidth="16" tileheight="16">
+  <image source="Tiles.png" trans="000000" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="Tiles" tilewidth="16" tileheight="16">
+  <image source="Tiles.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="129" name="characters" tilewidth="16" tileheight="16">
+  <image source="../../Game Tiles/characters.png" width="384" height="256"/>
+ </tileset>
+ <tileset firstgid="513" name="lofi_char" tilewidth="16" tileheight="16">
+  <image source="../../Game Tiles/oryx_lofi/lofi_char.png" width="128" height="248"/>
+ </tileset>
+ <tileset firstgid="633" name="Character-StandDown" tilewidth="16" tileheight="16">
+  <image source="Character Sprites/Character-StandDown.png" width="16" height="16"/>
+ </tileset>
+ <layer name="Base" width="64" height="48">
+  <properties>
+   <property name="collidable" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztmTuOhDAMQKPVVCzNrii5DJR0bD0FxR5sjsLRxmhAsiIMdjAhCSmexCeEPNsJA9MYY5rI+ZqZtosZfHwLbrsYyP46/i3iaqeY898av7F09bfHqcVePLTvE1r+XaHiR7VNzV8aKw3/DnG1k2//boUjYyqBigG0e53lz3XQ8sfOT+CbQYX8S4d4tAr516BccX4w/GvwXWJWW/ucWLTW/hX+lPvD2sbHOEyx2IuBpr9r3UOuBtvPdufWhH2+Cty/nf0pDzv3HH98rQ//ZuU6yW9CnP8tp63zVPsr/QXzf6hXaoALtVZAnyP0Pfqo/6PrpjQGVD3gY3u5D8mfisHaukhhrf27uV/8cQw061/y3QnHAPI2HoXjrpXHwpEQ35uyv3v9c0nN/0j/UvD71ZHv3CH4+yb7h+EvWR80CMnf1/3v7o9jkP1l80naPlR/u7+zyP5h+59NyP6xkf2zf/aP0/8H+AX+GPTEt8mY/cFrmMbdme3nZfdpm6T/4t5tUCTuzyFV/7vX/x39+4+P+Ufud5r/knmf4vyH/A/gM0roif+nYvTXJEb/N/Wt16s=
+  </data>
+ </layer>
+ <layer name="Trees" width="64" height="48">
+  <properties>
+   <property name="collidable" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztlgEKxCAMBP1Dn9b//6UUWpBiko0xGFMXpJwXo7OJvStlfR3PaM3X31Nxq0vil+ZWF1r/QsStLqT+mb3g+DnW7Pyl0HXP9C5E65+N+xV6/zOy39q//zxXZvZb0v3PzC+xZfut/4rjz1rzWgg/NTII6f/Nb+eP6plH/3P/G6P54MVfCu1DHRNBs95/UTzovf+jPKB6xJLvaMwhZ+DyjeZHclP7nNU4nqf2vBIL5aNH/REfap3VE2WXeJCzafYZ7ZVVFn4qXuPNbEk9wMUjvSCtmS0L//dza55am4EfXUPlaOVD/ZH21+bh+peL76kp1SdILmR/iklzngj83NpeH6LJUv/WXE/9I8mj/6P3QC3P/l+NH6n/d06bT4pBfBztsaX/tfEewyovfmS9hjESP5JPWq/xqvcsiLT3VbN3Dz91Lg9+JJdlXwu/lHOENPfZq+9maiZ/BPXwZ9Po9/+K+js/p82/2f/M/z6j8l/QczrB
+  </data>
+ </layer>
+ <layer name="Buildings" width="64" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt0cEJgDAQBMC0YTuWYV7234QKCYRrIMjOwHL3zGVbAwBS9ZFz90M26CVJf1Bvn0lxvTnGXPcU3733mOueYnY+JfZf70/qHwAAAAAAAADg7x6JAgjT
+  </data>
+ </layer>
+ <layer name="Character" width="64" height="48">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAAAIA7Bja9sb4whbgiUAAAAAAAAA8MNOewAAAADQc2jqAHw=
+  </data>
+ </layer>
+</map>

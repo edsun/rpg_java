@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- possible resource settings are valid, transparentColor is optional 
+	<sound key="" file="" />
+	<music key="" file="" />
+	<image key="" file="" transparentColor=""/> 
+	<sheet key="" file="" width="" height="" transparentColor=""/>
+	<angelcodefont key="" fontFile="" imageFile=""/>
+	<param key="" value="">
+-->
+	
+<resources>
+	<!-- basedir -->
+	<basedir path="res/" />
+	<!-- sounds -->
+	<!-- songs -->
+	<!-- images -->
+	<image key="standDown" file="Character-StandDown.png"/>
+	<image key="standUp" file="Character-StandUp.png"/> 
+	<image key="standLeft" file="Character-StandLeft.png"/> 
+	<image key="standRight" file="Character-StandRight.png"/> 
+	<image key="walkDown1" file="Character-WalkDown1.png"/>
+	<image key="walkDown2" file="Character-WalkDown2.png"/>
+	<image key="walkLeft1" file="Character-WalkLeft1.png"/>
+	<image key="walkLeft2" file="Character-WalkLeft2.png"/>
+	<image key="walkUp1" file="Character-WalkUp1.png"/>
+	<image key="walkUp2" file="Character-WalkUp2.png"/>
+	<image key="walkRight1" file="Character-WalkRight1.png"/>
+	<image key="walkRight2" file="Character-WalkRight2.png"/>
+	<image key="equipHUD" file="equipHUD.png"/>
+	<image key="hud" file="hud.png"/>
+	<image key="manabar" file="manabar.png"/>
+	<image key="healthbar" file="healthbar.png"/>
+	<image key="skillhud" file="skillhud.png"/>
+	<sheet key="skillIcons" file="skillIcons.png" width="896" height="928"/>
+	<sheet key="sword_anim" file="sword_anim.png" width="640" height="640"/>
+	<!-- sheets -->
+	<!-- fonts -->
+	<!-- tiled maps -->
+	<map key="map1" file="map.tmx"/>
+</resources>
