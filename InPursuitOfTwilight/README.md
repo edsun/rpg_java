@@ -1,0 +1,2 @@
+This is a starting framework for building a 2d rpg style game using java, lwjgl, slick2d and marteengine.
+It is mostly incomplete as it is the earliest point at which all things are functional, and able to move forward with development.
